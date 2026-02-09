@@ -6,7 +6,7 @@ export default function UseCursorBorderCard() {
     <div className="min-h-screen flex flex-col items-center justify-center  p-6">
       <Link
         to="/"
-        className="absolute top-6 left-6 text-white/90 hover:text-white px-4 py-2 rounded-lg bg-white/10 transition-colors z-10"
+        className="absolute top-6 left-6 text-white/90fit  hover:text-white px-4 py-2 rounded-lg bg-white/10 transition-colors z-10"
       >
         ← Back to Home
       </Link>

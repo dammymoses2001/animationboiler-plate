@@ -24,6 +24,12 @@ const animationHooks = [
     name: 'useCursorBorder',
     description: 'Cursor-following glowing border card',
     path: '/useCursorBorder'
+  },
+  {
+    id: 'useCircularHoverReveal',
+    name: 'useCircularHoverReveal',
+    description: 'Circular hover reveal with video/image',
+    path: '/useCircularHoverReveal'
   }
 ]
 
