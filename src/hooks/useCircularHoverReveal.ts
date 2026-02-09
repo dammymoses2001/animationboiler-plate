@@ -6,7 +6,7 @@ interface UseCircularHoverRevealOptions {
 }
 
 interface UseCircularHoverRevealReturn {
-  containerRef: React.RefObject<HTMLDivElement>
+  containerRef: React.RefObject<HTMLDivElement | null>
   mousePosition: { x: number; y: number }
   isHovering: boolean
   handleMouseMove: (e: React.MouseEvent<HTMLDivElement>) => void
