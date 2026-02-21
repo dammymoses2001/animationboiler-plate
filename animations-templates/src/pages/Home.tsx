@@ -24,6 +24,12 @@ const animationHooks = [
     name: 'useCursorBorder',
     description: 'Cursor-following glowing border card',
     path: '/useCursorBorder'
+  },
+  {
+    id: 'useGlowCards',
+    name: 'useGlowCards',
+    description: 'Reusable directional glow content card',
+    path: '/useGlowCards'
   }
 ]
 
